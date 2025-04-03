@@ -15,7 +15,7 @@ create dokerNeo4jConteiner:
     --env NEO4J_apoc_export_file_enabled=true \
     --env NEO4J_apoc_import_file_enabled=true \
     --env NEO4J_apoc_import_file_use__neo4j__config=true \
-    --env NEO4JLABS_PLUGINS=\[\"apoc\"\] \
+    --env NEO4JLABS_PLUGINS=\[\"apoc\",\"apoc-extended\"\] \
     neo4j:community
 ```
 
@@ -58,7 +58,7 @@ change the --env NEO4J_dbms_default__database= for the database you want to use.
     --env NEO4J_apoc_export_file_enabled=true \
     --env NEO4J_apoc_import_file_enabled=true \
     --env NEO4J_apoc_import_file_use__neo4j__config=true \
-    --env NEO4JLABS_PLUGINS=\[\"apoc\"\] \
+    --env NEO4JLABS_PLUGINS=\[\"apoc\",\"apoc-extended\"\] \
     neo4j:community
 ```
 
