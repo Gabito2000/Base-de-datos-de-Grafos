@@ -54,7 +54,7 @@ change the --env NEO4J_dbms_default__database= for the database you want to use.
     --volume=$HOME/neo4j/data:/data \
     --volume=./data/minigraphweb.db.dump:/var/lib/neo4j/import/minigraphweb.dump \
     --name neo4j_container \
-    --env NEO4J_dbms_default__database=minigraphweb \
+    --env NEO4J_dbms_default__database=rivers \
     --env NEO4J_apoc_export_file_enabled=true \
     --env NEO4J_apoc_import_file_enabled=true \
     --env NEO4J_apoc_import_file_use__neo4j__config=true \
